@@ -1,9 +1,7 @@
 fun main(args: Array<String>) {
 
-    val a: Any? = null
-    var b: Int = a as Int? ?: 20
-
-    var c = b / 2.5 // тип переменной float
-
+    var a: Any? = null
+    a = 256
+    var c = a / 2.5 // тип переменной double
     println(c)
 }
